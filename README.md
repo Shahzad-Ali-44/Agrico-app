@@ -100,7 +100,7 @@ The API returns a JSON response with:
 
 
 ### 👨‍💻 Contributing
-We welcome contributions! Feel free to fork the repository and submit a pull request.
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
 
 ### 📜 License
