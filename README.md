@@ -19,13 +19,13 @@ Agrico is a React Native mobile application designed to detect rice crop disease
 
 
 ### Home Screen
-![Home Screen](./assets/screenshots/Home.jpg)
+<img src="./assets/screenshots/Home.jpg" alt="Home Screen" width="150" />
 
 ### Image Upload
-![Image Upload](./assets/screenshots/uploading.jpg)
+<img src="./assets/screenshots/uploading.jpg" alt="Image Upload" width="150" />
 
 ### Detection Result
-![Detection Result](./assets/screenshots/Results.jpg)
+<img src="./assets/screenshots/Results.jpg" alt="Detection Result" width="150" />
 
 
 
