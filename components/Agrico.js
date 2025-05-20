@@ -90,7 +90,29 @@ const Agrico = () => {
         
         <Text style={{ fontSize: 28, fontWeight: 'bold', marginBottom: 20 }}>🌾 Rice Disease Detector</Text>
 
-        {image && <Image source={{ uri: image }} style={{ width: 300, height: 300, borderRadius: 10, marginVertical: 20 }} />}
+         {/* Fixed container for image or placeholder */}
+      <View
+        style={{
+          width: 300,
+          height: 300,
+          borderRadius: 10,
+          marginVertical: 20,
+          backgroundColor: '#e0e0e0',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {image ? (
+          <Image
+            source={{ uri: image }}
+            style={{ width: '100%', height: '100%', borderRadius: 10 }}
+          />
+        ) : (
+          <Text style={{ color: '#777', fontSize: 16, textAlign: 'center', paddingHorizontal: 16 }}>
+            Please upload an image to detect disease.
+          </Text>
+        )}
+      </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: '100%', marginBottom: 20 }}>
           <TouchableOpacity style={{ flex: 1, marginRight: 10, backgroundColor: '#007bff', padding: 12, borderRadius: 8, flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }} onPress={pickImage}>
