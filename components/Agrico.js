@@ -87,10 +87,7 @@ const Agrico = () => {
   return (
     <ScrollView style={{ flex: 1, backgroundColor: '#f5f5f5' }}>
       <View style={{ flex: 1, padding: 20, alignItems: 'center' }}>
-        
         <Text style={{ fontSize: 28, fontWeight: 'bold', marginBottom: 20 }}>🌾 Rice Disease Detector</Text>
-
-         {/* Fixed container for image or placeholder */}
       <View
         style={{
           width: 300,
