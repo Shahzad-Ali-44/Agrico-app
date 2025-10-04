@@ -74,7 +74,7 @@ Then scan the QR code with Expo Go (Android/iOS) to run the app on your device.
 ###   API Endpoint
 Agrico sends the image to the following API endpoint:
 ```
-https://ricemodelbackend-production.up.railway.app/predict
+https://ShahzadAli44-Agrico-backend.hf.space/predict
 ```
 
 The API returns a JSON response with:
