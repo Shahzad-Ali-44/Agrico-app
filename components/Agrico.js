@@ -9,7 +9,7 @@ const Agrico = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [result, setResult] = useState(null);
-  const API_URL = "https://ricemodelbackend-production.up.railway.app/predict";
+  const API_URL = "https://ShahzadAli44-Agrico-backend.hf.space/predict";
 
   useEffect(() => {
     const requestPermissions = async () => {
